@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+
+
+}
+
+body {
+    Font-size: 16px;
+    background-color: var(--Red);
+    background-image: url("images//bg-intro-desktop.png");
+}
+
+/* ------------------------------------------ */
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+
+
+}
+
+/* left side */
+.main-1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+
+}
+
+.main-1 h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: whitesmoke
+}
+
+.main-1 p {
+    color: whitesmoke;
+}
+
+/* right side */
+.main-2 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribtion {
+    width: 400px;
+    height: 35px;
+    background-color: var(--Blue);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0px 3px 6px 0px #00000073;
+}
+
+.subscribtion .first-span {
+    color: white;
+    font-size: 14px;
+}
+
+.subscribtion .sacand-span {
+    color: #bdb7e8;
+    font-size: 13px
+}
+
+.main-form {
+    width: 400px;
+    height: 350px;
+    background-color: #fffffe;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 7px 8px 0px rgb(0 0 0 / 43%)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+form input {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+form button {
+    width: 330px;
+    height: 40px;
+    background-color: var(--Green);
+    border-radius: 4px;
+    border: 0 solid;
+    box-shadow: -1px 2px 6px 0px rgb(0 0 0 / 43%)
+}
+
+form button span {
+    color: #fffffe
+}
